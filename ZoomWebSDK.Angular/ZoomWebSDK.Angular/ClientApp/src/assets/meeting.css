@@ -1,0 +1,14 @@
+﻿
+
+div#content_container.main-content {
+    height: auto !important;
+    background-color: #000000 !important;
+}
+
+div#content_container.main-content p {
+ 
+}
+
+.av-preview-container {
+    height: 253px !important;
+}

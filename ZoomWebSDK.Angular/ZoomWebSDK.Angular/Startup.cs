@@ -43,11 +43,11 @@ namespace ZoomWebSDK.Angular
             }
 
             app.UseHttpsRedirection();
+            app.UseDefaultFiles();
             app.UseStaticFiles();
-            if (!env.IsDevelopment())
-            {
+            
                 app.UseSpaStaticFiles();
-            }
+            
 
             app.UseRouting();
 
